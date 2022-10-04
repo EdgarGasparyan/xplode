@@ -1,0 +1,78 @@
+.wrapper {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  width: 350px;
+  height: 320px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 4px;
+}
+
+
+.cardImg{
+width: 250px;
+height: 200px;
+
+}
+
+.cardImg img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 230px;
+	height: 160px;
+}
+
+.productPAGE {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.paginaton {
+  display: flex;
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: burlywood;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: burlywood;
+}
+
+.paginationDisabled a {
+  color: silver;
+  background-color: silver;
+}
